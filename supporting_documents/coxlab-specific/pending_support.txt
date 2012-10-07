@@ -1,0 +1,32 @@
+
+Support Type: Current
+Project Title:  RI: Medium: Collaborative Research:
+Unlocking Biologically-Inspired Computer Vision: A High-Throughput Approach
+
+Amount: $450,000      08/27/2010 - 08/27/2013
+Location of Project: Havard University (collab with MIT)
+Source of Support: National Science Foundation
+Cal/Acad/Sum: 0/0/0 months  per year.
+
+________________
+
+
+Support Type: Pending
+Project Title:  BIGDATA: Small: DA: DCM: Collaborative Research:
+BigVision - Tools for Large-Scale Computer Vision and Learning
+
+Amount: $375,000      04/01/13 - 04/31/16
+Location of Project: Harvard University (collab with University of Colorado, Colorado Springs)
+Source of Support: National Science Foundation
+Cal/Acad/Sum: 1.0/0/0 months  per year.
+
+________________
+
+Support Type: Pending (Pending)
+Project Title:  RI: Medium: Collaborative Research:
+Deep Annotation: Measuring Human Vision to Improve Machine Vision
+
+Amount: $1,188,733      04/01/13 - 04/31/17
+Location of Project: Harvard University
+Source of Support: National Science Foundation
+Cal/Acad/Sum: 1.0/0/0 months  per year.

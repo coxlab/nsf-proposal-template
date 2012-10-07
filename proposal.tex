@@ -1,0 +1,134 @@
+\input{boilerplate.tex}
+
+
+\begin{document}
+
+% -------------------------------------------
+% PROJECT SUMMARY
+% -------------------------------------------
+
+
+\begin{center}
+{\Large{\bf Project Summary}}\\
+{\bf \large The Title Goes Here
+} \\
+IIS: Robust Intelligence: Medium
+\\*[3mm]
+
+David Cox (Harvard University) and XXX (XXX)
+
+\end{center}
+
+\input{sections/project_summary.tex}
+
+
+\renewcommand{\thepage} {A--\arabic{page}}
+
+\newpage
+
+
+\pagenumbering{arabic}
+\renewcommand{\thepage} {C--\arabic{page}}
+
+\newpage
+
+% -------------------------------------------
+% Project Description
+%
+%  15 pages
+%  + *additional 2* for collaboration plan for
+%    medium & large collaborative proposals
+%
+% -------------------------------------------
+
+\section{Overview of Project Objectives}
+
+%  1-2 PAGES
+\input{sections/introduction_and_objectives.tex}
+
+\section{Background}
+
+% ~ 1 PAGE
+
+\input{sections/background.tex}
+\label{sec:background}
+
+% ---------------------------------------------
+% Describe objectives
+% ---------------------------------------------
+
+%\input{asubsection.tex}
+%\label{sec:asubsection}
+
+
+% ---------------------------------------------
+% Required Elements
+% ---------------------------------------------
+
+\section{Education and Outreach }
+\label{sec:edu}
+
+% 0.5 PAGE
+\input{sections/education_and_outreach.tex}
+
+
+\section{Project Timeline}
+\label{sec:man}
+
+% 1 paragraph or so + (optional) figure
+\input{sections/project_timeline.tex}
+
+
+\section{Evaluation Plan}
+\label{sec:eval}
+
+% 0.5 PAGE
+\input{sections/evaluation_plan.tex}
+
+
+\section{Results from Recent Prior NSF Support}
+\label{sec:prior}
+
+% try to keep it to 1-2 pages, use lots of citations as needed but keep the text short
+\noindent
+
+% Cox results from previous NSF
+\input{sections/cox_previous.tex}
+
+% Scheirer results from previous
+\input{sections/scheirer_previous.tex}
+
+% Other results from previous
+%\input{other_previous.tex}
+
+
+% ---------------------------------------------
+% Collaboration Plan
+% ---------------------------------------------
+
+\newpage
+\pagenumbering{arabic}
+\renewcommand{\thepage} {D--\arabic{page}}
+
+
+\section{Collaboration Plan}
+\label{sec:collab}
+
+\input{sections/collaboration_plan.tex}
+
+\newpage
+
+
+% ---------------------------------------------
+% References
+% ---------------------------------------------
+
+\pagenumbering{arabic}
+\renewcommand{\thepage} {E--\arabic{page}}
+
+% include bib files, comma separated WITHOUT spaces
+\bibliography{coxlab_publications,refs}
+
+\bibliographystyle{plain}
+
+\end{document}

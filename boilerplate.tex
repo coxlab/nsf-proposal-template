@@ -1,0 +1,79 @@
+\documentclass{nsfproposal}
+\usepackage{amsmath, amsthm, epsfig}
+\usepackage{subfigure}
+\usepackage{url}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{setspace}
+\usepackage[font={small,sf},labelfont={small,sf,bf}]{caption}
+
+
+
+\makeatletter
+\setlength\itemsep{1\p@}
+\setlength\leftmargini{2.em}
+\setlength\belowcaptionskip{.25ex \@plus -.8ex \@minus -.2ex}
+\setlength\abovecaptionskip{-2pt}
+
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-1.5ex \@plus -2ex \@minus -.2ex}%
+                                   {.25ex \@plus.2ex}%
+                                   {\normalfont\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                   {-1.2ex \@plus -2ex \@minus -.2ex}%
+                                   {.25ex \@plus.2ex}%
+	                           {\normalfont\large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-.55ex\@plus -.2ex \@minus -.2ex}%
+                                     {.2ex \@plus .2ex}%
+                                     {\normalfont\large\bfseries}}
+
+
+\abovedisplayskip=5pt plus 3pt minus 6pt
+\abovedisplayshortskip=0pt plus 3pt
+\belowdisplayskip=5pt plus 3pt minus 6pt
+\belowdisplayshortskip=3pt plus 3pt minus 4pt
+
+\floatsep 6pt plus 2pt minus 2pt
+\textfloatsep 6pt plus 2pt minus 4pt
+\intextsep 6pt plus 2pt minus 2pt
+\dblfloatsep 4pt plus 2pt minus 2pt
+\dbltextfloatsep 4pt plus 2pt minus 4pt
+\@fptop 0pt plus 1fil \@fpsep 6pt plus 2fil \@fpbot 0pt plus 1fil
+\@dblfptop 0pt plus 1fil \@dblfpsep 6pt plus 2fil \@dblfpbot 0pt plus 1fil
+
+
+
+\makeatother
+
+
+% NSF proposal generation template style file.
+% based on latex stylefiles  written by Stefan Llewellyn Smith and
+% Sarah Gille, with contributions from Tboult and  others.
+% Further customized by David Cox and Walter Scheirer
+
+\newcommand{\degrees}{$\!\!$\char23$\!$}
+\DeclareFontFamily{OT1}{psyr}{}
+\DeclareFontShape{OT1}{psyr}{m}{n}{<-> psyr}{}
+\def\times{{\fontfamily{psyr}\selectfont\char180}}
+
+
+\renewcommand{\refname}{\centerline{References cited}}
+
+% this handles hanging indents for publications
+\def\rrr#1\\{\par
+\medskip\hbox{\vbox{\parindent=2em\hsize=6.12in
+\hangindent=4em\hangafter=1#1}}}
+
+\def\baselinestretch{1}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\def\real{\mathbb{R}}
+\def\expeted{\mathbb{E}}
+\long\def\comment#1{}
+\theoremstyle{definition}
+\newtheorem{mydef}{Definition}
+\newtheorem{myaim}{Objective}
+
