@@ -24,4 +24,10 @@ Type `make` at a command prompt to build. Final files are output into the `outpu
 * All NSF proposals require a "Data Management Plan"
 * Collaborative grants usually require a "Coordination Plan"
 * All NSF proposal budgeting for postdocs require a "Postdoctoral Mentoring Plan"
+* Biosketches: collaborators should be listed in alphabetical order
+* Animal and Human Subjects documentation is required!!
 
+### Project Description
+
+* must have "Results from Prior NSF support section": talks about ONE proposal from past 5 yrs, must include period and amount.
+* be sure to lean on broader impacts throughout
